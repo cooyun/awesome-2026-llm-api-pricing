@@ -1,5 +1,6 @@
 # 🚀 2026 LLM API Pricing, Context-Cliff & Latency Benchmark Matrix
-
+# Fetch live 2026 LLM pricing calendar, 272K/100K context cliffs & UTC peak windows (Zero API Key required)
+curl -s https://www.etuki.com/api/v1/pricing-calendar | jq '.etuki_frontier_price_index, .models["gpt-6-1-sol"]'
 > **Live Interactive 3D Token Cost Calculator & 467+ Model Telemetry Hub:** [https://www.etuki.com/calculator](https://www.etuki.com/calculator)
 
 [![LLM FinOps Verified by Etuki](https://img.shields.io/badge/LLM_FinOps-Verified_2026-06b6d4?style=for-the-badge)](https://www.etuki.com)
