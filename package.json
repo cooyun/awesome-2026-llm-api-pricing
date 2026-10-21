@@ -1,0 +1,25 @@
+{
+  "name": "etuki-finops-mcp",
+  "version": "1.0.0",
+  "description": "Official 2026 LLM API Pricing Calendar, Context-Cliff Router, Chrome FinOps HUD & Cursor MCP Server by Etuki.com",
+  "main": "build/index.js",
+  "bin": {
+    "etuki-finops-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "build"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

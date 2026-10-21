@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "etuki-finops": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "github:cooyun/awesome-2026-llm-api-pricing"
+      ]
+    }
+  }
+}
